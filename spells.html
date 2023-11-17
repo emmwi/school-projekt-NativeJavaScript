@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hogwarts-spells</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="spell.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Hogwarts</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Characters</a></li>
+        <li><a href="spells.html">Spells</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Spells</h1>
+      <form id="searchform">
+        <label for="name">Which one is your favourite spell? </label>
+        <input id="name" placeholder="my favourite is.." />
+        <input id="searchButton" type="button" value="find my favourite!" />
+      </form>
+      <div
+        id="spell-container"
+        class="d-flex justify-content-center flex-wrap"
+      ></div>
+    </main>
+    <footer>
+      <p>backgroundImage - Designed by Freepik”, www.freepik.com</p>
+      <p>© emma with</p>
+    </footer>
+    <script src="spell.js"></script>
+  </body>
+</html>
